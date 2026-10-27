@@ -4,7 +4,7 @@ export default {
   "hero_headline": "Menos complicaciones para tus clientes y tu equipo.",
   "hero_supporting": "Te ayudo a ordenar procesos, mejorar la atención y crear herramientas que faciliten el trabajo. Detecto tareas que toman demasiado tiempo, errores frecuentes y dificultades para entender una oferta, comprar o pedir ayuda.",
   "availability_note": "",
-  "profile_image": "",
+  "profile_image": "/images/Catherine-profile.png",
   "profile_alt": "Retrato pendiente de Catherine Carrillo",
   "email": "cathcarrilloe@gmail.com",
   "linkedin_url": "",
