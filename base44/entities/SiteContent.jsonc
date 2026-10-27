@@ -1,0 +1,149 @@
+{
+  "name": "SiteContent",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "professional_title": {
+      "type": "string"
+    },
+    "hero_headline": {
+      "type": "string"
+    },
+    "hero_supporting": {
+      "type": "string"
+    },
+    "availability_note": {
+      "type": "string"
+    },
+    "profile_image": {
+      "type": "string"
+    },
+    "profile_alt": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "linkedin_url": {
+      "type": "string"
+    },
+    "behance_url": {
+      "type": "string"
+    },
+    "calendar_url": {
+      "type": "string"
+    },
+    "cv_url": {
+      "type": "string"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "string"
+    },
+    "social_image": {
+      "type": "string"
+    },
+    "primary_cta_label": {
+      "type": "string"
+    },
+    "primary_cta_link": {
+      "type": "string"
+    },
+    "about_bio": {
+      "type": "string"
+    },
+    "mini_about_text": {
+      "type": "string"
+    },
+    "about_portrait": {
+      "type": "string"
+    },
+    "about_portrait_alt": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "company": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "dates": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "experience_highlights": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "about_cv": {
+      "type": "string"
+    },
+    "contact_heading": {
+      "type": "string"
+    },
+    "contact_description": {
+      "type": "string"
+    },
+    "impact_statements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "name"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
